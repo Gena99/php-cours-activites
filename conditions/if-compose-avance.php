@@ -57,7 +57,7 @@ $couleur = "Blanc";
 $yeux = "Vert";
 
 /** remplacer le chiffre 0 par les bonnes conditions **/
-if( 0 ){
+if($animal = 'chat' && $vivant && $couleur = 'Blanc ou marron' && $yeux = 'Vert'){
 	echo 'Oui';
 }else {
 	echo 'Non';
@@ -77,7 +77,7 @@ $couleur = "Noir";
 $yeux = "Vert";
 
 /** remplacer le chiffre 0 par les bonnes conditions **/
-if( 0 ){
+if(){
 	echo 'Oui';
 }else {
 	echo 'Non';
